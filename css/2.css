@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.editor, .previewer {
+  flex: 1; 
+  width: 50%; 
+}
+
+#editor1, #previewer1 {
+  height: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.tu {
+  background-color: #dc658d;
+  color: #fff;
+  padding: 8px;
+}
+
+.editor {
+  border-right: 1px solid #77baed; 
+  overflow-y: auto;
+}
+
+.previewer {
+  overflow-y: auto; 
+  background-color: #426aba;
+}
+
+
+
+
+
